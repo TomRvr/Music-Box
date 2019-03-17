@@ -1,0 +1,1158 @@
+   1              		.syntax unified
+   2              		.arch armv7e-m
+   3              		.eabi_attribute 27, 1
+   4              		.eabi_attribute 28, 1
+   5              		.fpu fpv4-sp-d16
+   6              		.eabi_attribute 20, 1
+   7              		.eabi_attribute 21, 1
+   8              		.eabi_attribute 23, 3
+   9              		.eabi_attribute 24, 1
+  10              		.eabi_attribute 25, 1
+  11              		.eabi_attribute 26, 1
+  12              		.eabi_attribute 30, 4
+  13              		.eabi_attribute 34, 1
+  14              		.eabi_attribute 18, 4
+  15              		.thumb
+  16              		.file	"melodies.c"
+  17              		.text
+  18              	.Ltext0:
+  19              		.cfi_sections	.debug_frame
+  20              		.global	jacques
+  21              		.global	dodo
+  22              		.global	marionette
+  23              		.global	noel
+  24              		.global	salv
+  25              		.global	clair
+  26              		.global	colas
+  27              		.global	berceuse
+  28              		.data
+  29              		.align	1
+  30              		.type	jacques, %object
+  31              		.size	jacques, 136
+  32              	jacques:
+  33 0000 BA02     		.short	698
+  34 0002 1003     		.short	784
+  35 0004 7003     		.short	880
+  36 0006 BA02     		.short	698
+  37 0008 BA02     		.short	698
+  38 000a 1003     		.short	784
+  39 000c 7003     		.short	880
+  40 000e BA02     		.short	698
+  41 0010 7003     		.short	880
+  42 0012 A403     		.short	932
+  43 0014 1604     		.short	1046
+  44 0016 7003     		.short	880
+  45 0018 A403     		.short	932
+  46 001a 1604     		.short	1046
+  47 001c 1604     		.short	1046
+  48 001e 9604     		.short	1174
+  49 0020 1604     		.short	1046
+  50 0022 DC03     		.short	988
+  51 0024 7003     		.short	880
+  52 0026 BA02     		.short	698
+  53 0028 1604     		.short	1046
+  54 002a 9604     		.short	1174
+  55 002c 1604     		.short	1046
+  56 002e DC03     		.short	988
+  57 0030 7003     		.short	880
+  58 0032 BA02     		.short	698
+  59 0034 BA02     		.short	698
+  60 0036 0B02     		.short	523
+  61 0038 BA02     		.short	698
+  62 003a BA02     		.short	698
+  63 003c 0B02     		.short	523
+  64 003e BA02     		.short	698
+  65 0040 0100     		.short	1
+  66 0042 0000     		.short	0
+  67 0044 0100     		.short	1
+  68 0046 0100     		.short	1
+  69 0048 0100     		.short	1
+  70 004a 0100     		.short	1
+  71 004c 0100     		.short	1
+  72 004e 0100     		.short	1
+  73 0050 0100     		.short	1
+  74 0052 0100     		.short	1
+  75 0054 0100     		.short	1
+  76 0056 0100     		.short	1
+  77 0058 0200     		.short	2
+  78 005a 0100     		.short	1
+  79 005c 0100     		.short	1
+  80 005e 0200     		.short	2
+  81 0060 0100     		.short	1
+  82 0062 0100     		.short	1
+  83 0064 0100     		.short	1
+  84 0066 0100     		.short	1
+  85 0068 0100     		.short	1
+  86 006a 0100     		.short	1
+  87 006c 0100     		.short	1
+  88 006e 0100     		.short	1
+  89 0070 0100     		.short	1
+  90 0072 0100     		.short	1
+  91 0074 0100     		.short	1
+  92 0076 0100     		.short	1
+  93 0078 0100     		.short	1
+  94 007a 0100     		.short	1
+  95 007c 0200     		.short	2
+  96 007e 0100     		.short	1
+  97 0080 0100     		.short	1
+  98 0082 0200     		.short	2
+  99 0084 0100     		.short	1
+ 100 0086 0100     		.short	1
+ 101              		.type	dodo, %object
+ 102              		.size	dodo, 108
+ 103              	dodo:
+ 104 0088 DC03     		.short	988
+ 105 008a 1003     		.short	784
+ 106 008c DC03     		.short	988
+ 107 008e DC03     		.short	988
+ 108 0090 1003     		.short	784
+ 109 0092 7003     		.short	880
+ 110 0094 DC03     		.short	988
+ 111 0096 1604     		.short	1046
+ 112 0098 DC03     		.short	988
+ 113 009a 7003     		.short	880
+ 114 009c 9604     		.short	1174
+ 115 009e DC03     		.short	988
+ 116 00a0 7003     		.short	880
+ 117 00a2 DC03     		.short	988
+ 118 00a4 1003     		.short	784
+ 119 00a6 DC03     		.short	988
+ 120 00a8 DC03     		.short	988
+ 121 00aa 1003     		.short	784
+ 122 00ac 7003     		.short	880
+ 123 00ae DC03     		.short	988
+ 124 00b0 1604     		.short	1046
+ 125 00b2 DC03     		.short	988
+ 126 00b4 7003     		.short	880
+ 127 00b6 9604     		.short	1174
+ 128 00b8 1003     		.short	784
+ 129 00ba 0100     		.short	1
+ 130 00bc 0000     		.short	0
+ 131 00be 0100     		.short	1
+ 132 00c0 0100     		.short	1
+ 133 00c2 0100     		.short	1
+ 134 00c4 0100     		.short	1
+ 135 00c6 0100     		.short	1
+ 136 00c8 0100     		.short	1
+ 137 00ca 0100     		.short	1
+ 138 00cc 0100     		.short	1
+ 139 00ce 0100     		.short	1
+ 140 00d0 0100     		.short	1
+ 141 00d2 0100     		.short	1
+ 142 00d4 0100     		.short	1
+ 143 00d6 0100     		.short	1
+ 144 00d8 0100     		.short	1
+ 145 00da 0100     		.short	1
+ 146 00dc 0100     		.short	1
+ 147 00de 0100     		.short	1
+ 148 00e0 0100     		.short	1
+ 149 00e2 0100     		.short	1
+ 150 00e4 0100     		.short	1
+ 151 00e6 0100     		.short	1
+ 152 00e8 0100     		.short	1
+ 153 00ea 0100     		.short	1
+ 154 00ec 0100     		.short	1
+ 155 00ee 0100     		.short	1
+ 156 00f0 0100     		.short	1
+ 157 00f2 0100     		.short	1
+ 158              		.type	marionette, %object
+ 159              		.size	marionette, 108
+ 160              	marionette:
+ 161 00f4 DC03     		.short	988
+ 162 00f6 DC03     		.short	988
+ 163 00f8 1003     		.short	784
+ 164 00fa DC03     		.short	988
+ 165 00fc 9604     		.short	1174
+ 166 00fe 1604     		.short	1046
+ 167 0100 DC03     		.short	988
+ 168 0102 1604     		.short	1046
+ 169 0104 7003     		.short	880
+ 170 0106 1003     		.short	784
+ 171 0108 BA02     		.short	698
+ 172 010a 1003     		.short	784
+ 173 010c 1003     		.short	784
+ 174 010e DC03     		.short	988
+ 175 0110 DC03     		.short	988
+ 176 0112 1003     		.short	784
+ 177 0114 DC03     		.short	988
+ 178 0116 9604     		.short	1174
+ 179 0118 1604     		.short	1046
+ 180 011a DC03     		.short	988
+ 181 011c 1604     		.short	1046
+ 182 011e 7003     		.short	880
+ 183 0120 1003     		.short	784
+ 184 0122 BA02     		.short	698
+ 185 0124 1003     		.short	784
+ 186 0126 0100     		.short	1
+ 187 0128 0000     		.short	0
+ 188 012a 0100     		.short	1
+ 189 012c 0100     		.short	1
+ 190 012e 0100     		.short	1
+ 191 0130 0100     		.short	1
+ 192 0132 0100     		.short	1
+ 193 0134 0100     		.short	1
+ 194 0136 0100     		.short	1
+ 195 0138 0100     		.short	1
+ 196 013a 0100     		.short	1
+ 197 013c 0100     		.short	1
+ 198 013e 0100     		.short	1
+ 199 0140 0100     		.short	1
+ 200 0142 0100     		.short	1
+ 201 0144 0100     		.short	1
+ 202 0146 0100     		.short	1
+ 203 0148 0100     		.short	1
+ 204 014a 0100     		.short	1
+ 205 014c 0100     		.short	1
+ 206 014e 0100     		.short	1
+ 207 0150 0100     		.short	1
+ 208 0152 0100     		.short	1
+ 209 0154 0100     		.short	1
+ 210 0156 0100     		.short	1
+ 211 0158 0100     		.short	1
+ 212 015a 0100     		.short	1
+ 213 015c 0100     		.short	1
+ 214 015e 0100     		.short	1
+ 215              		.type	noel, %object
+ 216              		.size	noel, 308
+ 217              	noel:
+ 218 0160 1003     		.short	784
+ 219 0162 1604     		.short	1046
+ 220 0164 1604     		.short	1046
+ 221 0166 1604     		.short	1046
+ 222 0168 9604     		.short	1174
+ 223 016a 1604     		.short	1046
+ 224 016c 1604     		.short	1046
+ 225 016e 9604     		.short	1174
+ 226 0170 2605     		.short	1318
+ 227 0172 2605     		.short	1318
+ 228 0174 2605     		.short	1318
+ 229 0176 7405     		.short	1396
+ 230 0178 2605     		.short	1318
+ 231 017a 9604     		.short	1174
+ 232 017c 1604     		.short	1046
+ 233 017e 1604     		.short	1046
+ 234 0180 1604     		.short	1046
+ 235 0182 1604     		.short	1046
+ 236 0184 DC03     		.short	988
+ 237 0186 7003     		.short	880
+ 238 0188 1003     		.short	784
+ 239 018a 1003     		.short	784
+ 240 018c 1003     		.short	784
+ 241 018e 1604     		.short	1046
+ 242 0190 1604     		.short	1046
+ 243 0192 1604     		.short	1046
+ 244 0194 DC03     		.short	988
+ 245 0196 1604     		.short	1046
+ 246 0198 9604     		.short	1174
+ 247 019a 1003     		.short	784
+ 248 019c 1604     		.short	1046
+ 249 019e 1604     		.short	1046
+ 250 01a0 1604     		.short	1046
+ 251 01a2 9604     		.short	1174
+ 252 01a4 9604     		.short	1174
+ 253 01a6 1604     		.short	1046
+ 254 01a8 7003     		.short	880
+ 255 01aa 7003     		.short	880
+ 256 01ac 7003     		.short	880
+ 257 01ae 7003     		.short	880
+ 258 01b0 7003     		.short	880
+ 259 01b2 7003     		.short	880
+ 260 01b4 DC03     		.short	988
+ 261 01b6 1604     		.short	1046
+ 262 01b8 7003     		.short	880
+ 263 01ba 7003     		.short	880
+ 264 01bc 1003     		.short	784
+ 265 01be 1604     		.short	1046
+ 266 01c0 1604     		.short	1046
+ 267 01c2 1604     		.short	1046
+ 268 01c4 1604     		.short	1046
+ 269 01c6 1604     		.short	1046
+ 270 01c8 DC03     		.short	988
+ 271 01ca 1604     		.short	1046
+ 272 01cc 9604     		.short	1174
+ 273 01ce DC04     		.short	1244
+ 274 01d0 DC04     		.short	1244
+ 275 01d2 DC04     		.short	1244
+ 276 01d4 DC04     		.short	1244
+ 277 01d6 DC04     		.short	1244
+ 278 01d8 9604     		.short	1174
+ 279 01da DC04     		.short	1244
+ 280 01dc 7405     		.short	1396
+ 281 01de 9604     		.short	1174
+ 282 01e0 1604     		.short	1046
+ 283 01e2 5404     		.short	1108
+ 284 01e4 DC04     		.short	1244
+ 285 01e6 DC04     		.short	1244
+ 286 01e8 DC04     		.short	1244
+ 287 01ea DC04     		.short	1244
+ 288 01ec 7405     		.short	1396
+ 289 01ee 7405     		.short	1396
+ 290 01f0 7405     		.short	1396
+ 291 01f2 1003     		.short	784
+ 292 01f4 1003     		.short	784
+ 293 01f6 0100     		.short	1
+ 294 01f8 0000     		.short	0
+ 295 01fa 0100     		.short	1
+ 296 01fc 0100     		.short	1
+ 297 01fe 0100     		.short	1
+ 298 0200 0100     		.short	1
+ 299 0202 0100     		.short	1
+ 300 0204 0400     		.short	4
+ 301 0206 0100     		.short	1
+ 302 0208 0100     		.short	1
+ 303 020a 0100     		.short	1
+ 304 020c 0100     		.short	1
+ 305 020e 0100     		.short	1
+ 306 0210 0100     		.short	1
+ 307 0212 0400     		.short	4
+ 308 0214 0100     		.short	1
+ 309 0216 0100     		.short	1
+ 310 0218 0100     		.short	1
+ 311 021a 0100     		.short	1
+ 312 021c 0100     		.short	1
+ 313 021e 0100     		.short	1
+ 314 0220 0100     		.short	1
+ 315 0222 0400     		.short	4
+ 316 0224 0100     		.short	1
+ 317 0226 0100     		.short	1
+ 318 0228 0200     		.short	2
+ 319 022a 0100     		.short	1
+ 320 022c 0100     		.short	1
+ 321 022e 0100     		.short	1
+ 322 0230 0100     		.short	1
+ 323 0232 0400     		.short	4
+ 324 0234 0100     		.short	1
+ 325 0236 0200     		.short	2
+ 326 0238 0100     		.short	1
+ 327 023a 0100     		.short	1
+ 328 023c 0100     		.short	1
+ 329 023e 0100     		.short	1
+ 330 0240 0400     		.short	4
+ 331 0242 0100     		.short	1
+ 332 0244 0100     		.short	1
+ 333 0246 0100     		.short	1
+ 334 0248 0100     		.short	1
+ 335 024a 0100     		.short	1
+ 336 024c 0100     		.short	1
+ 337 024e 0100     		.short	1
+ 338 0250 0100     		.short	1
+ 339 0252 0100     		.short	1
+ 340 0254 0100     		.short	1
+ 341 0256 0100     		.short	1
+ 342 0258 0100     		.short	1
+ 343 025a 0100     		.short	1
+ 344 025c 0100     		.short	1
+ 345 025e 0100     		.short	1
+ 346 0260 0100     		.short	1
+ 347 0262 0100     		.short	1
+ 348 0264 0100     		.short	1
+ 349 0266 0400     		.short	4
+ 350 0268 0100     		.short	1
+ 351 026a 0100     		.short	1
+ 352 026c 0100     		.short	1
+ 353 026e 0100     		.short	1
+ 354 0270 0100     		.short	1
+ 355 0272 0100     		.short	1
+ 356 0274 0100     		.short	1
+ 357 0276 0100     		.short	1
+ 358 0278 0100     		.short	1
+ 359 027a 0100     		.short	1
+ 360 027c 0100     		.short	1
+ 361 027e 0100     		.short	1
+ 362 0280 0100     		.short	1
+ 363 0282 0100     		.short	1
+ 364 0284 0100     		.short	1
+ 365 0286 0100     		.short	1
+ 366 0288 0100     		.short	1
+ 367 028a 0100     		.short	1
+ 368 028c 0400     		.short	4
+ 369 028e 0100     		.short	1
+ 370 0290 0100     		.short	1
+ 371 0292 0000     		.space	2
+ 372              		.type	salv, %object
+ 373              		.size	salv, 124
+ 374              	salv:
+ 375 0294 4901     		.short	329
+ 376 0296 4901     		.short	329
+ 377 0298 4901     		.short	329
+ 378 029a 4901     		.short	329
+ 379 029c 8801     		.short	392
+ 380 029e 4901     		.short	329
+ 381 02a0 5D01     		.short	349
+ 382 02a2 5D01     		.short	349
+ 383 02a4 5D01     		.short	349
+ 384 02a6 5D01     		.short	349
+ 385 02a8 B801     		.short	440
+ 386 02aa 8801     		.short	392
+ 387 02ac 0B02     		.short	523
+ 388 02ae 0100     		.short	1
+ 389 02b0 4901     		.short	329
+ 390 02b2 4901     		.short	329
+ 391 02b4 4901     		.short	329
+ 392 02b6 4901     		.short	329
+ 393 02b8 8801     		.short	392
+ 394 02ba 4901     		.short	329
+ 395 02bc 5D01     		.short	349
+ 396 02be 5D01     		.short	349
+ 397 02c0 5D01     		.short	349
+ 398 02c2 5D01     		.short	349
+ 399 02c4 B801     		.short	440
+ 400 02c6 2501     		.short	293
+ 401 02c8 4901     		.short	329
+ 402 02ca 0100     		.short	1
+ 403 02cc 0000     		.short	0
+ 404 02ce 00000000 		.space	4
+ 405 02d2 0100     		.short	1
+ 406 02d4 0100     		.short	1
+ 407 02d6 0100     		.short	1
+ 408 02d8 0100     		.short	1
+ 409 02da 0100     		.short	1
+ 410 02dc 0100     		.short	1
+ 411 02de 0100     		.short	1
+ 412 02e0 0100     		.short	1
+ 413 02e2 0100     		.short	1
+ 414 02e4 0100     		.short	1
+ 415 02e6 0100     		.short	1
+ 416 02e8 0100     		.short	1
+ 417 02ea 0400     		.short	4
+ 418 02ec 0100     		.short	1
+ 419 02ee 0100     		.short	1
+ 420 02f0 0100     		.short	1
+ 421 02f2 0100     		.short	1
+ 422 02f4 0100     		.short	1
+ 423 02f6 0100     		.short	1
+ 424 02f8 0100     		.short	1
+ 425 02fa 0100     		.short	1
+ 426 02fc 0100     		.short	1
+ 427 02fe 0100     		.short	1
+ 428 0300 0100     		.short	1
+ 429 0302 0100     		.short	1
+ 430 0304 0100     		.short	1
+ 431 0306 0400     		.short	4
+ 432 0308 0100     		.short	1
+ 433 030a 0100     		.short	1
+ 434 030c 00000000 		.space	4
+ 435              		.type	clair, %object
+ 436              		.size	clair, 184
+ 437              	clair:
+ 438 0310 0B02     		.short	523
+ 439 0312 0B02     		.short	523
+ 440 0314 0B02     		.short	523
+ 441 0316 4B02     		.short	587
+ 442 0318 9302     		.short	659
+ 443 031a 4B02     		.short	587
+ 444 031c 0B02     		.short	523
+ 445 031e 9302     		.short	659
+ 446 0320 4B02     		.short	587
+ 447 0322 4B02     		.short	587
+ 448 0324 0B02     		.short	523
+ 449 0326 0B02     		.short	523
+ 450 0328 0B02     		.short	523
+ 451 032a 0B02     		.short	523
+ 452 032c 4B02     		.short	587
+ 453 032e 9302     		.short	659
+ 454 0330 4B02     		.short	587
+ 455 0332 0B02     		.short	523
+ 456 0334 9302     		.short	659
+ 457 0336 4B02     		.short	587
+ 458 0338 4B02     		.short	587
+ 459 033a 0B02     		.short	523
+ 460 033c 4B02     		.short	587
+ 461 033e 4B02     		.short	587
+ 462 0340 4B02     		.short	587
+ 463 0342 4B02     		.short	587
+ 464 0344 B801     		.short	440
+ 465 0346 B801     		.short	440
+ 466 0348 4B02     		.short	587
+ 467 034a 0B02     		.short	523
+ 468 034c EE01     		.short	494
+ 469 034e B801     		.short	440
+ 470 0350 8801     		.short	392
+ 471 0352 0B02     		.short	523
+ 472 0354 0B02     		.short	523
+ 473 0356 0B02     		.short	523
+ 474 0358 4B02     		.short	587
+ 475 035a 9302     		.short	659
+ 476 035c 4B02     		.short	587
+ 477 035e 0B02     		.short	523
+ 478 0360 9302     		.short	659
+ 479 0362 4B02     		.short	587
+ 480 0364 4B02     		.short	587
+ 481 0366 0B02     		.short	523
+ 482 0368 0100     		.short	1
+ 483 036a 0000     		.short	0
+ 484 036c 0100     		.short	1
+ 485 036e 0100     		.short	1
+ 486 0370 0100     		.short	1
+ 487 0372 0100     		.short	1
+ 488 0374 0200     		.short	2
+ 489 0376 0200     		.short	2
+ 490 0378 0100     		.short	1
+ 491 037a 0100     		.short	1
+ 492 037c 0100     		.short	1
+ 493 037e 0100     		.short	1
+ 494 0380 0400     		.short	4
+ 495 0382 0100     		.short	1
+ 496 0384 0100     		.short	1
+ 497 0386 0100     		.short	1
+ 498 0388 0100     		.short	1
+ 499 038a 0200     		.short	2
+ 500 038c 0200     		.short	2
+ 501 038e 0100     		.short	1
+ 502 0390 0100     		.short	1
+ 503 0392 0100     		.short	1
+ 504 0394 0100     		.short	1
+ 505 0396 0400     		.short	4
+ 506 0398 0100     		.short	1
+ 507 039a 0100     		.short	1
+ 508 039c 0100     		.short	1
+ 509 039e 0100     		.short	1
+ 510 03a0 0200     		.short	2
+ 511 03a2 0200     		.short	2
+ 512 03a4 0100     		.short	1
+ 513 03a6 0100     		.short	1
+ 514 03a8 0100     		.short	1
+ 515 03aa 0100     		.short	1
+ 516 03ac 0400     		.short	4
+ 517 03ae 0100     		.short	1
+ 518 03b0 0100     		.short	1
+ 519 03b2 0100     		.short	1
+ 520 03b4 0100     		.short	1
+ 521 03b6 0200     		.short	2
+ 522 03b8 0200     		.short	2
+ 523 03ba 0100     		.short	1
+ 524 03bc 0100     		.short	1
+ 525 03be 0100     		.short	1
+ 526 03c0 0100     		.short	1
+ 527 03c2 0400     		.short	4
+ 528 03c4 0100     		.short	1
+ 529 03c6 0100     		.short	1
+ 530              		.type	colas, %object
+ 531              		.size	colas, 156
+ 532              	colas:
+ 533 03c8 DC03     		.short	988
+ 534 03ca 7003     		.short	880
+ 535 03cc 1003     		.short	784
+ 536 03ce 1003     		.short	784
+ 537 03d0 7003     		.short	880
+ 538 03d2 1003     		.short	784
+ 539 03d4 7003     		.short	880
+ 540 03d6 DC03     		.short	988
+ 541 03d8 1003     		.short	784
+ 542 03da DC03     		.short	988
+ 543 03dc 7003     		.short	880
+ 544 03de 1003     		.short	784
+ 545 03e0 1003     		.short	784
+ 546 03e2 7003     		.short	880
+ 547 03e4 DC03     		.short	988
+ 548 03e6 7003     		.short	880
+ 549 03e8 1003     		.short	784
+ 550 03ea 9604     		.short	1174
+ 551 03ec 9604     		.short	1174
+ 552 03ee DC03     		.short	988
+ 553 03f0 9604     		.short	1174
+ 554 03f2 9604     		.short	1174
+ 555 03f4 9604     		.short	1174
+ 556 03f6 9604     		.short	1174
+ 557 03f8 DC03     		.short	988
+ 558 03fa 9604     		.short	1174
+ 559 03fc 9604     		.short	1174
+ 560 03fe DC03     		.short	988
+ 561 0400 DC03     		.short	988
+ 562 0402 1604     		.short	1046
+ 563 0404 9604     		.short	1174
+ 564 0406 7003     		.short	880
+ 565 0408 DC03     		.short	988
+ 566 040a DC03     		.short	988
+ 567 040c 1604     		.short	1046
+ 568 040e 9604     		.short	1174
+ 569 0410 7003     		.short	880
+ 570 0412 0100     		.short	1
+ 571 0414 0000     		.short	0
+ 572 0416 0200     		.short	2
+ 573 0418 0100     		.short	1
+ 574 041a 0200     		.short	2
+ 575 041c 0100     		.short	1
+ 576 041e 0100     		.short	1
+ 577 0420 0100     		.short	1
+ 578 0422 0100     		.short	1
+ 579 0424 0200     		.short	2
+ 580 0426 0100     		.short	1
+ 581 0428 0200     		.short	2
+ 582 042a 0100     		.short	1
+ 583 042c 0200     		.short	2
+ 584 042e 0100     		.short	1
+ 585 0430 0100     		.short	1
+ 586 0432 0100     		.short	1
+ 587 0434 0100     		.short	1
+ 588 0436 0200     		.short	2
+ 589 0438 0100     		.short	1
+ 590 043a 0100     		.short	1
+ 591 043c 0100     		.short	1
+ 592 043e 0100     		.short	1
+ 593 0440 0200     		.short	2
+ 594 0442 0100     		.short	1
+ 595 0444 0100     		.short	1
+ 596 0446 0100     		.short	1
+ 597 0448 0100     		.short	1
+ 598 044a 0200     		.short	2
+ 599 044c 0100     		.short	1
+ 600 044e 0100     		.short	1
+ 601 0450 0100     		.short	1
+ 602 0452 0100     		.short	1
+ 603 0454 0200     		.short	2
+ 604 0456 0100     		.short	1
+ 605 0458 0100     		.short	1
+ 606 045a 0100     		.short	1
+ 607 045c 0100     		.short	1
+ 608 045e 0400     		.short	4
+ 609 0460 0100     		.short	1
+ 610 0462 0100     		.short	1
+ 611              		.type	berceuse, %object
+ 612              		.size	berceuse, 220
+ 613              	berceuse:
+ 614 0464 BA02     		.short	698
+ 615 0466 BA02     		.short	698
+ 616 0468 7003     		.short	880
+ 617 046a BA02     		.short	698
+ 618 046c BA02     		.short	698
+ 619 046e 7003     		.short	880
+ 620 0470 BA02     		.short	698
+ 621 0472 7003     		.short	880
+ 622 0474 9604     		.short	1174
+ 623 0476 1604     		.short	1046
+ 624 0478 DC03     		.short	988
+ 625 047a DC03     		.short	988
+ 626 047c 7003     		.short	880
+ 627 047e 9302     		.short	659
+ 628 0480 BA02     		.short	698
+ 629 0482 1003     		.short	784
+ 630 0484 9302     		.short	659
+ 631 0486 9302     		.short	659
+ 632 0488 BA02     		.short	698
+ 633 048a 1003     		.short	784
+ 634 048c 9302     		.short	659
+ 635 048e BA02     		.short	698
+ 636 0490 1604     		.short	1046
+ 637 0492 DC03     		.short	988
+ 638 0494 7003     		.short	880
+ 639 0496 1604     		.short	1046
+ 640 0498 9604     		.short	1174
+ 641 049a 4B02     		.short	587
+ 642 049c 4B02     		.short	587
+ 643 049e 9604     		.short	1174
+ 644 04a0 DC03     		.short	988
+ 645 04a2 1003     		.short	784
+ 646 04a4 7003     		.short	880
+ 647 04a6 BA02     		.short	698
+ 648 04a8 4B02     		.short	587
+ 649 04aa 1003     		.short	784
+ 650 04ac 7003     		.short	880
+ 651 04ae DC03     		.short	988
+ 652 04b0 7003     		.short	880
+ 653 04b2 4B02     		.short	587
+ 654 04b4 4B02     		.short	587
+ 655 04b6 9604     		.short	1174
+ 656 04b8 DC03     		.short	988
+ 657 04ba 1003     		.short	784
+ 658 04bc 7003     		.short	880
+ 659 04be BA02     		.short	698
+ 660 04c0 4B02     		.short	587
+ 661 04c2 1003     		.short	784
+ 662 04c4 7003     		.short	880
+ 663 04c6 1003     		.short	784
+ 664 04c8 BA02     		.short	698
+ 665 04ca 9302     		.short	659
+ 666 04cc 4B02     		.short	587
+ 667 04ce 0100     		.short	1
+ 668 04d0 0000     		.short	0
+ 669 04d2 0100     		.short	1
+ 670 04d4 0100     		.short	1
+ 671 04d6 0100     		.short	1
+ 672 04d8 0000     		.short	0
+ 673 04da 0100     		.short	1
+ 674 04dc 0200     		.short	2
+ 675 04de 0100     		.short	1
+ 676 04e0 0100     		.short	1
+ 677 04e2 0100     		.short	1
+ 678 04e4 0100     		.short	1
+ 679 04e6 0000     		.short	0
+ 680 04e8 0100     		.short	1
+ 681 04ea 0100     		.short	1
+ 682 04ec 0100     		.short	1
+ 683 04ee 0100     		.short	1
+ 684 04f0 0100     		.short	1
+ 685 04f2 0100     		.short	1
+ 686 04f4 0100     		.short	1
+ 687 04f6 0100     		.short	1
+ 688 04f8 0200     		.short	2
+ 689 04fa 0100     		.short	1
+ 690 04fc 0100     		.short	1
+ 691 04fe 0100     		.short	1
+ 692 0500 0100     		.short	1
+ 693 0502 0100     		.short	1
+ 694 0504 0100     		.short	1
+ 695 0506 0200     		.short	2
+ 696 0508 0100     		.short	1
+ 697 050a 0100     		.short	1
+ 698 050c 0200     		.short	2
+ 699 050e 0100     		.short	1
+ 700 0510 0100     		.short	1
+ 701 0512 0200     		.short	2
+ 702 0514 0100     		.short	1
+ 703 0516 0100     		.short	1
+ 704 0518 0100     		.short	1
+ 705 051a 0100     		.short	1
+ 706 051c 0100     		.short	1
+ 707 051e 0200     		.short	2
+ 708 0520 0100     		.short	1
+ 709 0522 0100     		.short	1
+ 710 0524 0200     		.short	2
+ 711 0526 0100     		.short	1
+ 712 0528 0100     		.short	1
+ 713 052a 0200     		.short	2
+ 714 052c 0100     		.short	1
+ 715 052e 0100     		.short	1
+ 716 0530 0100     		.short	1
+ 717 0532 0000     		.short	0
+ 718 0534 0000     		.short	0
+ 719 0536 0100     		.short	1
+ 720 0538 0100     		.short	1
+ 721 053a 0200     		.short	2
+ 722 053c 0100     		.short	1
+ 723 053e 0100     		.short	1
+ 724              		.text
+ 725              	.Letext0:
+ 726              		.file 1 "/usr/include/newlib/machine/_default_types.h"
+ 727              		.file 2 "/usr/include/newlib/sys/_stdint.h"
+ 728              		.file 3 "src/melodies.c"
+ 729              		.section	.debug_info,"",%progbits
+ 730              	.Ldebug_info0:
+ 731 0000 9F010000 		.4byte	0x19f
+ 732 0004 0400     		.2byte	0x4
+ 733 0006 00000000 		.4byte	.Ldebug_abbrev0
+ 734 000a 04       		.byte	0x4
+ 735 000b 01       		.uleb128 0x1
+ 736 000c 05000000 		.4byte	.LASF20
+ 737 0010 01       		.byte	0x1
+ 738 0011 B3000000 		.4byte	.LASF21
+ 739 0015 17010000 		.4byte	.LASF22
+ 740 0019 00000000 		.4byte	.Ldebug_line0
+ 741 001d 02       		.uleb128 0x2
+ 742 001e 01       		.byte	0x1
+ 743 001f 06       		.byte	0x6
+ 744 0020 A1010000 		.4byte	.LASF0
+ 745 0024 02       		.uleb128 0x2
+ 746 0025 01       		.byte	0x1
+ 747 0026 08       		.byte	0x8
+ 748 0027 C7000000 		.4byte	.LASF1
+ 749 002b 02       		.uleb128 0x2
+ 750 002c 02       		.byte	0x2
+ 751 002d 05       		.byte	0x5
+ 752 002e 76010000 		.4byte	.LASF2
+ 753 0032 03       		.uleb128 0x3
+ 754 0033 FF000000 		.4byte	.LASF9
+ 755 0037 01       		.byte	0x1
+ 756 0038 2B       		.byte	0x2b
+ 757 0039 3D000000 		.4byte	0x3d
+ 758 003d 02       		.uleb128 0x2
+ 759 003e 02       		.byte	0x2
+ 760 003f 07       		.byte	0x7
+ 761 0040 E7000000 		.4byte	.LASF3
+ 762 0044 02       		.uleb128 0x2
+ 763 0045 04       		.byte	0x4
+ 764 0046 05       		.byte	0x5
+ 765 0047 92010000 		.4byte	.LASF4
+ 766 004b 02       		.uleb128 0x2
+ 767 004c 04       		.byte	0x4
+ 768 004d 07       		.byte	0x7
+ 769 004e D5000000 		.4byte	.LASF5
+ 770 0052 02       		.uleb128 0x2
+ 771 0053 08       		.byte	0x8
+ 772 0054 05       		.byte	0x5
+ 773 0055 68010000 		.4byte	.LASF6
+ 774 0059 02       		.uleb128 0x2
+ 775 005a 08       		.byte	0x8
+ 776 005b 07       		.byte	0x7
+ 777 005c 48010000 		.4byte	.LASF7
+ 778 0060 04       		.uleb128 0x4
+ 779 0061 04       		.byte	0x4
+ 780 0062 05       		.byte	0x5
+ 781 0063 696E7400 		.ascii	"int\000"
+ 782 0067 02       		.uleb128 0x2
+ 783 0068 04       		.byte	0x4
+ 784 0069 07       		.byte	0x7
+ 785 006a 0A010000 		.4byte	.LASF8
+ 786 006e 03       		.uleb128 0x3
+ 787 006f 80010000 		.4byte	.LASF10
+ 788 0073 02       		.byte	0x2
+ 789 0074 1A       		.byte	0x1a
+ 790 0075 32000000 		.4byte	0x32
+ 791 0079 05       		.uleb128 0x5
+ 792 007a 6E000000 		.4byte	0x6e
+ 793 007e 8F000000 		.4byte	0x8f
+ 794 0082 06       		.uleb128 0x6
+ 795 0083 8F000000 		.4byte	0x8f
+ 796 0087 01       		.byte	0x1
+ 797 0088 06       		.uleb128 0x6
+ 798 0089 8F000000 		.4byte	0x8f
+ 799 008d 36       		.byte	0x36
+ 800 008e 00       		.byte	0
+ 801 008f 02       		.uleb128 0x2
+ 802 0090 04       		.byte	0x4
+ 803 0091 07       		.byte	0x7
+ 804 0092 5F010000 		.4byte	.LASF11
+ 805 0096 07       		.uleb128 0x7
+ 806 0097 89010000 		.4byte	.LASF12
+ 807 009b 03       		.byte	0x3
+ 808 009c 07       		.byte	0x7
+ 809 009d 79000000 		.4byte	0x79
+ 810 00a1 05       		.uleb128 0x5
+ 811 00a2 03       		.byte	0x3
+ 812 00a3 00000000 		.4byte	berceuse
+ 813 00a7 05       		.uleb128 0x5
+ 814 00a8 6E000000 		.4byte	0x6e
+ 815 00ac BD000000 		.4byte	0xbd
+ 816 00b0 06       		.uleb128 0x6
+ 817 00b1 8F000000 		.4byte	0x8f
+ 818 00b5 01       		.byte	0x1
+ 819 00b6 06       		.uleb128 0x6
+ 820 00b7 8F000000 		.4byte	0x8f
+ 821 00bb 26       		.byte	0x26
+ 822 00bc 00       		.byte	0
+ 823 00bd 07       		.uleb128 0x7
+ 824 00be A2000000 		.4byte	.LASF13
+ 825 00c2 03       		.byte	0x3
+ 826 00c3 0A       		.byte	0xa
+ 827 00c4 A7000000 		.4byte	0xa7
+ 828 00c8 05       		.uleb128 0x5
+ 829 00c9 03       		.byte	0x3
+ 830 00ca 00000000 		.4byte	colas
+ 831 00ce 05       		.uleb128 0x5
+ 832 00cf 6E000000 		.4byte	0x6e
+ 833 00d3 E4000000 		.4byte	0xe4
+ 834 00d7 06       		.uleb128 0x6
+ 835 00d8 8F000000 		.4byte	0x8f
+ 836 00dc 01       		.byte	0x1
+ 837 00dd 06       		.uleb128 0x6
+ 838 00de 8F000000 		.4byte	0x8f
+ 839 00e2 2D       		.byte	0x2d
+ 840 00e3 00       		.byte	0
+ 841 00e4 07       		.uleb128 0x7
+ 842 00e5 9B010000 		.4byte	.LASF14
+ 843 00e9 03       		.byte	0x3
+ 844 00ea 0E       		.byte	0xe
+ 845 00eb CE000000 		.4byte	0xce
+ 846 00ef 05       		.uleb128 0x5
+ 847 00f0 03       		.byte	0x3
+ 848 00f1 00000000 		.4byte	clair
+ 849 00f5 05       		.uleb128 0x5
+ 850 00f6 6E000000 		.4byte	0x6e
+ 851 00fa 0B010000 		.4byte	0x10b
+ 852 00fe 06       		.uleb128 0x6
+ 853 00ff 8F000000 		.4byte	0x8f
+ 854 0103 01       		.byte	0x1
+ 855 0104 06       		.uleb128 0x6
+ 856 0105 8F000000 		.4byte	0x8f
+ 857 0109 1E       		.byte	0x1e
+ 858 010a 00       		.byte	0
+ 859 010b 07       		.uleb128 0x7
+ 860 010c C2000000 		.4byte	.LASF15
+ 861 0110 03       		.byte	0x3
+ 862 0111 12       		.byte	0x12
+ 863 0112 F5000000 		.4byte	0xf5
+ 864 0116 05       		.uleb128 0x5
+ 865 0117 03       		.byte	0x3
+ 866 0118 00000000 		.4byte	salv
+ 867 011c 05       		.uleb128 0x5
+ 868 011d 6E000000 		.4byte	0x6e
+ 869 0121 32010000 		.4byte	0x132
+ 870 0125 06       		.uleb128 0x6
+ 871 0126 8F000000 		.4byte	0x8f
+ 872 012a 01       		.byte	0x1
+ 873 012b 06       		.uleb128 0x6
+ 874 012c 8F000000 		.4byte	0x8f
+ 875 0130 4C       		.byte	0x4c
+ 876 0131 00       		.byte	0
+ 877 0132 07       		.uleb128 0x7
+ 878 0133 FA000000 		.4byte	.LASF16
+ 879 0137 03       		.byte	0x3
+ 880 0138 16       		.byte	0x16
+ 881 0139 1C010000 		.4byte	0x11c
+ 882 013d 05       		.uleb128 0x5
+ 883 013e 03       		.byte	0x3
+ 884 013f 00000000 		.4byte	noel
+ 885 0143 05       		.uleb128 0x5
+ 886 0144 6E000000 		.4byte	0x6e
+ 887 0148 59010000 		.4byte	0x159
+ 888 014c 06       		.uleb128 0x6
+ 889 014d 8F000000 		.4byte	0x8f
+ 890 0151 01       		.byte	0x1
+ 891 0152 06       		.uleb128 0x6
+ 892 0153 8F000000 		.4byte	0x8f
+ 893 0157 1A       		.byte	0x1a
+ 894 0158 00       		.byte	0
+ 895 0159 07       		.uleb128 0x7
+ 896 015a A8000000 		.4byte	.LASF17
+ 897 015e 03       		.byte	0x3
+ 898 015f 1A       		.byte	0x1a
+ 899 0160 43010000 		.4byte	0x143
+ 900 0164 05       		.uleb128 0x5
+ 901 0165 03       		.byte	0x3
+ 902 0166 00000000 		.4byte	marionette
+ 903 016a 07       		.uleb128 0x7
+ 904 016b 00000000 		.4byte	.LASF18
+ 905 016f 03       		.byte	0x3
+ 906 0170 1E       		.byte	0x1e
+ 907 0171 43010000 		.4byte	0x143
+ 908 0175 05       		.uleb128 0x5
+ 909 0176 03       		.byte	0x3
+ 910 0177 00000000 		.4byte	dodo
+ 911 017b 05       		.uleb128 0x5
+ 912 017c 6E000000 		.4byte	0x6e
+ 913 0180 91010000 		.4byte	0x191
+ 914 0184 06       		.uleb128 0x6
+ 915 0185 8F000000 		.4byte	0x8f
+ 916 0189 01       		.byte	0x1
+ 917 018a 06       		.uleb128 0x6
+ 918 018b 8F000000 		.4byte	0x8f
+ 919 018f 21       		.byte	0x21
+ 920 0190 00       		.byte	0
+ 921 0191 07       		.uleb128 0x7
+ 922 0192 9A000000 		.4byte	.LASF19
+ 923 0196 03       		.byte	0x3
+ 924 0197 22       		.byte	0x22
+ 925 0198 7B010000 		.4byte	0x17b
+ 926 019c 05       		.uleb128 0x5
+ 927 019d 03       		.byte	0x3
+ 928 019e 00000000 		.4byte	jacques
+ 929 01a2 00       		.byte	0
+ 930              		.section	.debug_abbrev,"",%progbits
+ 931              	.Ldebug_abbrev0:
+ 932 0000 01       		.uleb128 0x1
+ 933 0001 11       		.uleb128 0x11
+ 934 0002 01       		.byte	0x1
+ 935 0003 25       		.uleb128 0x25
+ 936 0004 0E       		.uleb128 0xe
+ 937 0005 13       		.uleb128 0x13
+ 938 0006 0B       		.uleb128 0xb
+ 939 0007 03       		.uleb128 0x3
+ 940 0008 0E       		.uleb128 0xe
+ 941 0009 1B       		.uleb128 0x1b
+ 942 000a 0E       		.uleb128 0xe
+ 943 000b 10       		.uleb128 0x10
+ 944 000c 17       		.uleb128 0x17
+ 945 000d 00       		.byte	0
+ 946 000e 00       		.byte	0
+ 947 000f 02       		.uleb128 0x2
+ 948 0010 24       		.uleb128 0x24
+ 949 0011 00       		.byte	0
+ 950 0012 0B       		.uleb128 0xb
+ 951 0013 0B       		.uleb128 0xb
+ 952 0014 3E       		.uleb128 0x3e
+ 953 0015 0B       		.uleb128 0xb
+ 954 0016 03       		.uleb128 0x3
+ 955 0017 0E       		.uleb128 0xe
+ 956 0018 00       		.byte	0
+ 957 0019 00       		.byte	0
+ 958 001a 03       		.uleb128 0x3
+ 959 001b 16       		.uleb128 0x16
+ 960 001c 00       		.byte	0
+ 961 001d 03       		.uleb128 0x3
+ 962 001e 0E       		.uleb128 0xe
+ 963 001f 3A       		.uleb128 0x3a
+ 964 0020 0B       		.uleb128 0xb
+ 965 0021 3B       		.uleb128 0x3b
+ 966 0022 0B       		.uleb128 0xb
+ 967 0023 49       		.uleb128 0x49
+ 968 0024 13       		.uleb128 0x13
+ 969 0025 00       		.byte	0
+ 970 0026 00       		.byte	0
+ 971 0027 04       		.uleb128 0x4
+ 972 0028 24       		.uleb128 0x24
+ 973 0029 00       		.byte	0
+ 974 002a 0B       		.uleb128 0xb
+ 975 002b 0B       		.uleb128 0xb
+ 976 002c 3E       		.uleb128 0x3e
+ 977 002d 0B       		.uleb128 0xb
+ 978 002e 03       		.uleb128 0x3
+ 979 002f 08       		.uleb128 0x8
+ 980 0030 00       		.byte	0
+ 981 0031 00       		.byte	0
+ 982 0032 05       		.uleb128 0x5
+ 983 0033 01       		.uleb128 0x1
+ 984 0034 01       		.byte	0x1
+ 985 0035 49       		.uleb128 0x49
+ 986 0036 13       		.uleb128 0x13
+ 987 0037 01       		.uleb128 0x1
+ 988 0038 13       		.uleb128 0x13
+ 989 0039 00       		.byte	0
+ 990 003a 00       		.byte	0
+ 991 003b 06       		.uleb128 0x6
+ 992 003c 21       		.uleb128 0x21
+ 993 003d 00       		.byte	0
+ 994 003e 49       		.uleb128 0x49
+ 995 003f 13       		.uleb128 0x13
+ 996 0040 2F       		.uleb128 0x2f
+ 997 0041 0B       		.uleb128 0xb
+ 998 0042 00       		.byte	0
+ 999 0043 00       		.byte	0
+ 1000 0044 07       		.uleb128 0x7
+ 1001 0045 34       		.uleb128 0x34
+ 1002 0046 00       		.byte	0
+ 1003 0047 03       		.uleb128 0x3
+ 1004 0048 0E       		.uleb128 0xe
+ 1005 0049 3A       		.uleb128 0x3a
+ 1006 004a 0B       		.uleb128 0xb
+ 1007 004b 3B       		.uleb128 0x3b
+ 1008 004c 0B       		.uleb128 0xb
+ 1009 004d 49       		.uleb128 0x49
+ 1010 004e 13       		.uleb128 0x13
+ 1011 004f 3F       		.uleb128 0x3f
+ 1012 0050 19       		.uleb128 0x19
+ 1013 0051 02       		.uleb128 0x2
+ 1014 0052 18       		.uleb128 0x18
+ 1015 0053 00       		.byte	0
+ 1016 0054 00       		.byte	0
+ 1017 0055 00       		.byte	0
+ 1018              		.section	.debug_aranges,"",%progbits
+ 1019 0000 14000000 		.4byte	0x14
+ 1020 0004 0200     		.2byte	0x2
+ 1021 0006 00000000 		.4byte	.Ldebug_info0
+ 1022 000a 04       		.byte	0x4
+ 1023 000b 00       		.byte	0
+ 1024 000c 0000     		.2byte	0
+ 1025 000e 0000     		.2byte	0
+ 1026 0010 00000000 		.4byte	0
+ 1027 0014 00000000 		.4byte	0
+ 1028              		.section	.debug_line,"",%progbits
+ 1029              	.Ldebug_line0:
+ 1030 0000 80000000 		.section	.debug_str,"MS",%progbits,1
+ 1030      02007A00 
+ 1030      00000201 
+ 1030      FB0E0D00 
+ 1030      01010101 
+ 1031              	.LASF18:
+ 1032 0000 646F646F 		.ascii	"dodo\000"
+ 1032      00
+ 1033              	.LASF20:
+ 1034 0005 474E5520 		.ascii	"GNU C 4.9.3 20150529 (prerelease) -mtune=cortex-m4 "
+ 1034      4320342E 
+ 1034      392E3320 
+ 1034      32303135 
+ 1034      30353239 
+ 1035 0038 2D6D7468 		.ascii	"-mthumb -march=armv7e-m -mfloat-abi=hard -mfpu=fpv4"
+ 1035      756D6220 
+ 1035      2D6D6172 
+ 1035      63683D61 
+ 1035      726D7637 
+ 1036 006b 2D73702D 		.ascii	"-sp-d16 -g -O0 -Os -fsingle-precision-constant\000"
+ 1036      64313620 
+ 1036      2D67202D 
+ 1036      4F30202D 
+ 1036      4F73202D 
+ 1037              	.LASF19:
+ 1038 009a 6A616371 		.ascii	"jacques\000"
+ 1038      75657300 
+ 1039              	.LASF13:
+ 1040 00a2 636F6C61 		.ascii	"colas\000"
+ 1040      7300
+ 1041              	.LASF17:
+ 1042 00a8 6D617269 		.ascii	"marionette\000"
+ 1042      6F6E6574 
+ 1042      746500
+ 1043              	.LASF21:
+ 1044 00b3 7372632F 		.ascii	"src/melodies.c\000"
+ 1044      6D656C6F 
+ 1044      64696573 
+ 1044      2E6300
+ 1045              	.LASF15:
+ 1046 00c2 73616C76 		.ascii	"salv\000"
+ 1046      00
+ 1047              	.LASF1:
+ 1048 00c7 756E7369 		.ascii	"unsigned char\000"
+ 1048      676E6564 
+ 1048      20636861 
+ 1048      7200
+ 1049              	.LASF5:
+ 1050 00d5 6C6F6E67 		.ascii	"long unsigned int\000"
+ 1050      20756E73 
+ 1050      69676E65 
+ 1050      6420696E 
+ 1050      7400
+ 1051              	.LASF3:
+ 1052 00e7 73686F72 		.ascii	"short unsigned int\000"
+ 1052      7420756E 
+ 1052      7369676E 
+ 1052      65642069 
+ 1052      6E7400
+ 1053              	.LASF16:
+ 1054 00fa 6E6F656C 		.ascii	"noel\000"
+ 1054      00
+ 1055              	.LASF9:
+ 1056 00ff 5F5F7569 		.ascii	"__uint16_t\000"
+ 1056      6E743136 
+ 1056      5F7400
+ 1057              	.LASF8:
+ 1058 010a 756E7369 		.ascii	"unsigned int\000"
+ 1058      676E6564 
+ 1058      20696E74 
+ 1058      00
+ 1059              	.LASF22:
+ 1060 0117 2F686F6D 		.ascii	"/home/tom/COURS/S6/Projet_boiteMusique/c_project\000"
+ 1060      652F746F 
+ 1060      6D2F434F 
+ 1060      5552532F 
+ 1060      53362F50 
+ 1061              	.LASF7:
+ 1062 0148 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 1062      206C6F6E 
+ 1062      6720756E 
+ 1062      7369676E 
+ 1062      65642069 
+ 1063              	.LASF11:
+ 1064 015f 73697A65 		.ascii	"sizetype\000"
+ 1064      74797065 
+ 1064      00
+ 1065              	.LASF6:
+ 1066 0168 6C6F6E67 		.ascii	"long long int\000"
+ 1066      206C6F6E 
+ 1066      6720696E 
+ 1066      7400
+ 1067              	.LASF2:
+ 1068 0176 73686F72 		.ascii	"short int\000"
+ 1068      7420696E 
+ 1068      7400
+ 1069              	.LASF10:
+ 1070 0180 75696E74 		.ascii	"uint16_t\000"
+ 1070      31365F74 
+ 1070      00
+ 1071              	.LASF12:
+ 1072 0189 62657263 		.ascii	"berceuse\000"
+ 1072      65757365 
+ 1072      00
+ 1073              	.LASF4:
+ 1074 0192 6C6F6E67 		.ascii	"long int\000"
+ 1074      20696E74 
+ 1074      00
+ 1075              	.LASF14:
+ 1076 019b 636C6169 		.ascii	"clair\000"
+ 1076      7200
+ 1077              	.LASF0:
+ 1078 01a1 7369676E 		.ascii	"signed char\000"
+ 1078      65642063 
+ 1078      68617200 
+ 1079              		.ident	"GCC: (15:4.9.3+svn231177-1) 4.9.3 20150529 (prerelease)"
+DEFINED SYMBOLS
+                            *ABS*:0000000000000000 melodies.c
+     /tmp/ccoYqyKh.s:32     .data:0000000000000000 jacques
+     /tmp/ccoYqyKh.s:103    .data:0000000000000088 dodo
+     /tmp/ccoYqyKh.s:160    .data:00000000000000f4 marionette
+     /tmp/ccoYqyKh.s:217    .data:0000000000000160 noel
+     /tmp/ccoYqyKh.s:374    .data:0000000000000294 salv
+     /tmp/ccoYqyKh.s:437    .data:0000000000000310 clair
+     /tmp/ccoYqyKh.s:532    .data:00000000000003c8 colas
+     /tmp/ccoYqyKh.s:613    .data:0000000000000464 berceuse
+     /tmp/ccoYqyKh.s:29     .data:0000000000000000 $d
+
+NO UNDEFINED SYMBOLS
